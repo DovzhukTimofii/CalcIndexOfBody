@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.calc__box {
+  width: 80%;
+  height: 300px;
+  background: white;
+  border-radius: 30px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#btn-resoult {
+  width: 10%;
+  height: 30px;
+  background: green;
+  margin-top: 10px;
+}
+
+#resoult-screen {
+  width: 100%;
+  height: 20px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
